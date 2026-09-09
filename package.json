@@ -1,0 +1,40 @@
+{
+  "name": "hj633-aqi",
+  "version": "1.0.0",
+  "description": "Claude Code skill for China HJ 633—2026 air quality index (AQI/IAQI): official breakpoints, piecewise interpolation, ceil rounding, categories and primary pollutant.",
+  "bin": {
+    "hj633-aqi": "bin/install.js"
+  },
+  "files": [
+    "SKILL.md",
+    "references/",
+    "scripts/",
+    "evals/",
+    "bin/"
+  ],
+  "scripts": {
+    "postinstall": "node bin/install.js",
+    "prepack": "node -e \"require('fs').rmSync('scripts/__pycache__',{recursive:true,force:true})\"",
+    "test": "python scripts/accuracy_audit.py"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skill",
+    "agent-skills",
+    "aqi",
+    "iaqi",
+    "hj633",
+    "air-quality",
+    "china",
+    "环境空气质量指数"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PLACEHOLDER/hj633-aqi.git"
+  },
+  "engines": {
+    "node": ">=16.7"
+  }
+}

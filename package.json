@@ -1,6 +1,6 @@
 {
   "name": "hj633-aqi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Claude Code skill for China HJ 633—2026 air quality index (AQI/IAQI): official breakpoints, piecewise interpolation, ceil rounding, categories and primary pollutant.",
   "bin": {
     "hj633-aqi": "bin/install.js"

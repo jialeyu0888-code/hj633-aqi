@@ -25,7 +25,7 @@ npx hj633-aqi uninstall  # 移除
 或手动安装：
 
 ```bash
-git clone https://github.com/PLACEHOLDER/hj633-aqi ~/.claude/skills/hj633-aqi
+git clone https://github.com/jialeyu0888-code/hj633-aqi ~/.claude/skills/hj633-aqi
 ```
 
 ## 使用
